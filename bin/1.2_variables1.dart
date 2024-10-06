@@ -1,13 +1,14 @@
 String message = "Hello World"; // Metin değişkeni
 
-int dayCount = 7;           // Tamsayı
+int gunSayisi = 7;           // Tamsayı
 double pi = 3.14;           // Ondalıklı sayı
-bool isFinished = false;    // Doğru veya yanlış
+bool koyuMod = false;    // Doğru veya yanlış
 
 void main() {
   print(message);
-  print("Bir haftada "+ dayCount.toString() + " gün var.");
-  print("Bir haftada $dayCount gün var.");
+  
+  print("Bir haftada " + gunSayisi.toString() + " gün var.");
+  print("Bir haftada $gunSayisi gün var.");
 
   double r = 2;
   double C = 2 * pi * r; 
